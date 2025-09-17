@@ -5,7 +5,7 @@ A collection of bash scripts for managing Gerrit patches across multiple reposit
 ## Quick Start
 
 1. Edit `patch_config_flexible.conf` - Set your Gerrit username and patch list
-2. Run `./apply_patches_flexible.sh --dry-run` - Preview operations
+(Optional: 2. Run `./apply_patches_flexible.sh --dry-run` - Preview operations)
 3. Run `./apply_patches_flexible.sh` - Apply patches
 4. Run `./clean_patches.sh --force` - Reset repositories when needed
 
